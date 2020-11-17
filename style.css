@@ -3,3 +3,41 @@ table, td, th {
     width: 300px;
     text-align: center;
  }
+
+ .form {
+     border: 2px solid black;
+     width: 850px;
+ }
+
+ .table {
+     width: 850px;
+ }
+
+
+ .submitBtn, .resetBtn {
+    background: #0066a2;
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    
+}
+
+.header {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.inputBox {
+    font-size: 10px;
+    margin: 3px;
+}
+
+.tRow {
+    font-weight: bold;
+}

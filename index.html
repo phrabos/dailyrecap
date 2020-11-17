@@ -10,7 +10,34 @@
 
 </head>
 <body>
-    <table>
+    <form class="form">
+      <section class="header">Add New Day Info</section>
+      <section>
+        <label for="date">Date</label><input type="text" class="inputBox" id="date">
+        <label for="RHR">RHR</label><input type="number" class="inputBox" id="RHR">
+        <label for="HRV">HRV</label><input type="number" class="inputBox" id="HRV">
+      </section>
+      <section>
+        <label for="temp">Temp</label><input type="number" class="inputBox" step=".1">
+        <label for="calIn">Calories In</label><input type="number"    class="inputBox">
+        <label for="calOut">Calories Out</label><input type="number" class="inputBox">
+      </section>        
+      <section>
+        <label for="weight">Weight</label><input type="number" class="inputBox" step=".1">
+        <label for="Body Fat">Body Fat %</label><input type="number" class="inputBox" step=".1">
+      </section>   
+      <section>
+        <label for="miles">Miles Ran</label><input type="number" class="inputBox" step=".1">
+        <label for="sleep">Hours Slept</label><input type="number" class="inputBox" step=".01">
+        <label for="BP">Blood Pressure</label><input type="text" class="inputBox">
+      </section>  
+      <section>
+        <button class="submitBtn">Submit Data </button>
+        <button class="resetBtn">Reset </button>
+      </section>
+    </form>
+    <br>
+    <table class="table">
     <thead>
         <tr>
           <th>Date</th>
@@ -26,8 +53,8 @@
           <th>Blood Pressure</th>
         </tr>
     </thead>
-    <tbody id="body">
-        <tr>
+    <tbody class="tBody" id="tBody">
+        <tr class="tRow">
           <td>10/16/20</td>
           <td>40</td>
           <td>48mms</td>
@@ -40,7 +67,7 @@
           <td>8.2</td>
           <td>116/65</td>
         </tr>
-        <tr>
+        <tr class="tRow">
             <td>10/15/20</td>
             <td>42</td>
             <td>40mms</td>
@@ -52,7 +79,7 @@
             <td>4.0</td>
             <td>7.75</td>
             <td>112/63</td>
-          </tr>
+        </tr>
         </tbody>
         </table>
     
