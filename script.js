@@ -67,7 +67,7 @@ submitBtn.addEventListener("click", (event) => {
     document.querySelector(".tRow").remove();
  });
 
-/*  document.querySelector(".deleteBtn").addEventListener("click", (event) => {
+`/*  document.querySelector(".deleteBtn").addEventListener("click", (event) => {
     event.preventDefault();
     alert("x clicked");
     document.querySelector(".tRow").remove();
@@ -100,4 +100,4 @@ for (i=0; i<inputs.length; i++){
 //append row to table
 document.getElementById("body").appendChild(addRow);
 }; */
-//populateRow();
+//populateRow()
